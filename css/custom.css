@@ -1,0 +1,19 @@
+/****************************************************
+Custom.css 
+
+Use this file to add your own css
+****************************************************/
+.main-nav, .footer-light {
+	background: linear-gradient(to bottom, #dedede, #a1a1a1);
+}
+.nav-highlight .navbar-nav > .active > a, .nav-highlight .navbar-default .navbar-nav > .active > a:hover, .nav-highlight .navbar-default .navbar-nav > .active > a:focus, .footer-light a:hover, .nav-highlight .navbar-nav > li:hover > a, .nav-highlight .navbar-nav > li:focus, .nav-highlight .navbar-nav > li:active {
+	color: #393d6a;
+}
+.tp-caption.Dining-BtnLight,
+.Dining-BtnLight {
+	color: rgba(57, 61, 106, 0.50);
+	border-color: rgba(57, 61, 106, 0.50);
+}
+.footer-light .footer-2-v2 .footer-copyright {
+	background: transparent;
+}
