@@ -9,11 +9,14 @@ Use this file to add your own css
 .nav-highlight .navbar-nav > .active > a, .nav-highlight .navbar-default .navbar-nav > .active > a:hover, .nav-highlight .navbar-default .navbar-nav > .active > a:focus, .footer-light a:hover, .nav-highlight .navbar-nav > li:hover > a, .nav-highlight .navbar-nav > li:focus, .nav-highlight .navbar-nav > li:active {
 	color: #393d6a;
 }
-.tp-caption.Dining-BtnLight,
-.Dining-BtnLight {
+.tp-caption.Dining-BtnLight, .Dining-BtnLight {
 	color: rgba(57, 61, 106, 0.50);
 	border-color: rgba(57, 61, 106, 0.50);
 }
 .footer-light .footer-2-v2 .footer-copyright {
 	background: transparent;
+}
+.btn-theme, .btn-theme:focus, .tp-caption .btn-theme, .tp-caption .btn-theme:focus {
+	border-color: #393d6a !important;
+	background-color: #393d6a !important;
 }
