@@ -3,6 +3,16 @@ Custom.css
 
 Use this file to add your own css
 ****************************************************/
+a {
+	color: #393d6a;
+}
+a:hover, a:focus, a:active {
+	color: #393d6a;
+	opacity: 0.9;
+}
+.text-theme {
+	color: #dedede !important;
+}
 .main-nav, .footer-light {
 	background: linear-gradient(to bottom, #dedede, #a1a1a1);
 }
@@ -12,6 +22,9 @@ Use this file to add your own css
 .tp-caption.Dining-BtnLight, .Dining-BtnLight {
 	color: rgba(57, 61, 106, 0.50);
 	border-color: rgba(57, 61, 106, 0.50);
+}
+.footer {
+	border-color: #393d6a;
 }
 .footer-light .footer-2-v2 .footer-copyright {
 	background: transparent;
